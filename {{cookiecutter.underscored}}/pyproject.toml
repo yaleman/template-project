@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "{{cookicutter.hyphenated}}"
+name = "{{cookiecutter.hyphenated}}"
 version = "0.0.1"
 description = "{{cookiecutter.description}}"
-authors = ["{{cookicutter.author_name}} <{{cookiecutter.author_email}}>"]
+authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
