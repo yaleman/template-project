@@ -1,0 +1,9 @@
+{
+  "lib_name": "",
+  "description": "",
+  "hyphenated": "{{ '-'.join(cookiecutter['lib_name'].lower().split()).replace('_', '-') }}",
+  "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
+  "github_username": "yaleman",
+  "author_name": "James Hogkinson",
+  "author_email": "james@terminaloutcomes.com"
+}
