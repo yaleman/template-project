@@ -6,16 +6,20 @@ authors = ["{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.12"
 
 [tool.poetry.dev-dependencies]
+ruff = "^0.4.1"
+mypy = "^1.9.0"
+pytest = "^8.1.1"
+
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.pylint.MASTER]
-max-line-length=200
+max-line-length = 200
 
 # https://github.com/samuelcolvin/pydantic/issues/1961#issuecomment-759522422
 #extension-pkg-whitelist=pydantic

@@ -1,8 +1,8 @@
 """ testing code which doesn't test anything """
 
-# from {{ cookiecutter.underscored }} import example_function
+import pytest
 
 
 def test_nothing() -> None:
-    """ doesn't test anything """
-    assert example_function() == 2
+    """doesn't test anything"""
+    pytest.skip("This doesn't test anything!")
