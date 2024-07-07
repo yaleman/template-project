@@ -5,5 +5,8 @@
   "underscored": "{{ cookiecutter.hyphenated.replace('-', '_') }}",
   "github_username": "yaleman",
   "author_name": "James Hogkinson",
-  "author_email": "james@terminaloutcomes.com"
+  "author_email": "james@terminaloutcomes.com",
+  "_copy_without_render": [
+    ".github/workflows/*.yml"
+  ]
 }
