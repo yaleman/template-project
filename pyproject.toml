@@ -11,7 +11,7 @@ python = "^3.12"
 
 
 [tool.poetry.group.dev.dependencies]
-cruft = "^2.15.0"
+cruft = "^2.16.0"
 
 [build-system]
 requires = ["poetry-core"]
